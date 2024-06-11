@@ -158,6 +158,7 @@ input {
 
 .recipes {
   width: 100%;
+  height: 550px;
 }
 
 .recipes > h1 {
@@ -397,4 +398,194 @@ td {
 
 .tr1 {
   line-height: 70px;
+}
+
+ul > li:hover {
+  color: rgb(255, 64, 0);
+  border-bottom: 2px solid rgb(255, 64, 0);
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: palevioletred;
+}
+
+.heading-container {
+  position: fixed;
+  z-index: 1;
+  padding-bottom: 120px;
+}
+
+.tr1 > td {
+  color: #212244;
+}
+
+.tr > td {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .heading-container,
+  .list-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-section > h1,
+  p {
+    font-size: 20px;
+  }
+
+  .hero-section > p {
+    width: 200px;
+  }
+
+  .hero-section > button {
+    position: relative;
+    bottom: 50px;
+  }
+
+  .hero-section {
+    font-size: 20px;
+
+    position: relative;
+    top: 310px;
+    left: 250px;
+  }
+
+  .favorite {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 500px;
+  }
+
+  .card-1 {
+    width: 300px;
+    height: 350px;
+  }
+
+  .card-1 > img {
+    width: 200px;
+    height: 150px;
+    left: 0px;
+  }
+
+  .card-1 > h1,
+  h2 {
+    font-size: 2px;
+  }
+
+  .recipes {
+    padding-top: 500px;
+  }
+
+  .horizontal-line {
+    width: 0;
+    border: none;
+  }
+
+  .recipes-items {
+    position: relative;
+    left: 200px;
+  }
+
+  .recipes-items,
+  .im-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .recipes {
+    padding-bottom: 1390px;
+  }
+
+  .customers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 1500px;
+  }
+
+  .emp-img {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .cu-rev {
+    width: 100vw;
+  }
+
+  .cu-rev > h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .markinting {
+    width: 100px;
+    height: 50px;
+  }
+
+  .markinting > h2,
+  p {
+    font-size: 20px;
+    width: 300px;
+  }
+
+  .cu-p {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+
+    text-align: center;
+    margin-left: 90px;
+  }
+
+  .customers {
+    padding-bottom: 800px;
+  }
+
+  .marki {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-5 {
+    width: 630px;
+    height: 500px;
+  }
+
+  .footer-im {
+    width: 100vw;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-1 {
+    left: 50px;
+  }
+
+  table {
+    width: 20px;
+    font-size: 9px;
+    padding-inline: 1px;
+  }
+
+  .tr1 {
+    line-height: 38px;
+  }
 }
